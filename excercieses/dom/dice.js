@@ -12,3 +12,10 @@ var randomImageSource2 = "./img/" + randomImage2;
 var image2 = document.querySelectorAll("img")[1];
 image2.setAttribute("src",randomImageSource2);
 
+if (randomNumber1 > randomNumber2) {
+    document.querySelector("h1").innerHTML = "Play 1 Wins!"
+} else if (randomNumber1 < randomNumber2) {
+    document.querySelector("h1").innerHTML = "Play 2 Wins!"
+} else {
+    document.querySelector("h1").innerHTML = "Draw!"
+}
