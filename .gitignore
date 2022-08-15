@@ -1,1 +1,14 @@
-# img
+# intro-to-node
+intro-to-node/node_modules
+intro-to-node/package.json
+intro-to-node/package-lock.json
+
+# my-express-server
+my-express-server/node_modules
+my-express-server/package.json
+my-express-server/package-lock.json
+
+# calculator
+calculator/node_modules
+calculator/package.json
+calculator/package-lock.json
