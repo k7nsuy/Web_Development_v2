@@ -17,3 +17,4 @@ calculator/package-lock.json
 weatherProject/node_modules
 weatherProject/package.json
 weatherProject/package-lock.json
+weatherProject/app.js
