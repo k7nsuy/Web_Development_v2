@@ -12,3 +12,8 @@ my-express-server/package-lock.json
 calculator/node_modules
 calculator/package.json
 calculator/package-lock.json
+
+# weatherProject
+weatherProject/node_modules
+weatherProject/package.json
+weatherProject/package-lock.json
