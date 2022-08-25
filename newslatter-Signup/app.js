@@ -7,11 +7,22 @@ const request = require('request')
 const app = express()
 
 app.use(express.static("public"))
+app.use(bodyParser.urlencoded({extended: true}))
 
-app.listen(3003, function() {
-    console.log(`Server is running on port 3003`);
-})
+
 
 app.get('/', function(req,res) {
     res.sendFile(__dirname + "/signup.html")
+})
+
+app.post('/', function(req,res) {
+    var firstName = req.body.fName
+    var lastName = req.body.lName
+    var eMail = req.body.eMail
+
+    console.log(firstName, lastName, eMail);
+})
+
+app.listen(3004, function() {
+    console.log(`Server is running on port 3004`);
 })
